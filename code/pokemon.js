@@ -97,7 +97,7 @@ const createPokemonCard = (pokemon) => {
     }).join('')
 
     const cardHtml = `
-        <button id="shiny-btn"></button>
+        <button id="shiny-btn">X</button>
         <img src="${imageUrl ?? pokemon.sprites.front_default}" alt="Imagem do ${name}">
         <p class="pokemon-number">#${id}</p>
         <h2 class="pokemon-name">${name}</h2>
