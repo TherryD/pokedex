@@ -11,12 +11,17 @@
 </head>
 <body>
     <h1>Pokédex</h1>
-    <form id="search-form">
+    <form id="search-form" action="#">
         <input type="text" id="search-input" placeholder="Digite o nome ou número do Pokémon" required>
         <button type="submit">Buscar</button>
     </form>
     <p id="message-area"></p> 
     <div id="pokedex-container"></div>
+
+    <div id="navigation-buttons" class="hidden">
+        <button id="prev-btn" class="nav-btn">&lt; Anterior</button>
+        <button id="next-btn" class="nav-btn">Próximo &gt;</button>
+    </div>
     <script src="pokemon.js"></script>
 </body>
 </html>
